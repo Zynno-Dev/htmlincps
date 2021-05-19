@@ -1,0 +1,124 @@
+
+ /*footer template*/
+ 
+ @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+ body {
+     background: linear-gradient(0deg, #fff, 50%, #DEEEFE);
+     font-family: 'Rubik', sans-serif;
+     background: #455A64;
+     height: 100 !important
+ }
+
+ .container-fluid {
+     overflow: hidden;
+     /*margin-top: 250px;*/
+     background: #262626;
+     color: #627482 !important;
+     margin-bottom: 0;
+     padding-bottom: 0
+ }
+
+ small {
+     font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ .bold-text {
+     color: #989c9e !important
+ }
+
+ .mt-55 {
+     margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ h3 {
+     font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ .social {
+     font-size: 21px !important
+ }
+
+ .rights {
+     font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+/*propio*/
+
+.back{
+background-color: rgb(59, 59, 59);
+}
+
+.white{
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
+    padding-top: 20px;
+    text-decoration: underline 6px white;
+}
+
+#navBarToMin {
+    background-color:#455A64;
+}
+.alinear{
+    display: flex;
+justify-content: space-around;
+}
+
+.formato{
+    width: auto;
+    height: 275px;
+    border-radius: 20px;
+}
+
+.margen{
+    margin-bottom: 30px;
+}
+
+.card{
+    border-radius: 15px;
+}
+
+#presentacion{
+    color: rgb(100, 100, 211);
+}
+
+#pra{
+text-decoration: none;
+color: white;
+}
+
+#prb{
+text-decoration: none;
+}
+
+hr{
+    color: white;
+}
+
+#presentacion{
+    height: 90vh;
+    width: 98.5vw;
+    display: block;
+    padding-top: 200px;
+}
+
+.imgToModify{
+    width: auto;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.detailCard{
+    width: 80vw;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
