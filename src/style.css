@@ -109,7 +109,7 @@ hr{
 
 .imgToModify{
     width: auto;
-    height: auto;
+    height: 650px;
     display: block;
     margin: auto;
     margin-top: 30px;
@@ -121,4 +121,23 @@ hr{
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+#productoUno{
+    cursor: pointer;
+}
+
+#productoDos{
+    cursor: pointer;
+}
+
+#productoTres{
+    cursor: pointer;
+}
+
+.buttonBack{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+    cursor: pointer;
 }
