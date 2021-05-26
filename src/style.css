@@ -90,6 +90,8 @@ justify-content: space-around;
 #pra{
 text-decoration: none;
 color: white;
+animation-duration: 1s;
+animation-iteration-count: infinite;
 }
 
 #prb{
@@ -140,4 +142,45 @@ hr{
     margin-top: 50px;
     margin-left: 50px;
     cursor: pointer;
+}
+
+.buttonBack:hover{
+    animation-name: color;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color {
+    0%{color: black;}
+    25%{color: rgb(125, 61, 230);}
+    50%{color: rgb(117, 117, 117);}
+    75%{color: rgb(79, 79, 199);}
+    100%{color: black;}
+  }
+  
+@keyframes rgb {
+    0%{text-shadow: 4px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+    33%{text-shadow: -4px 0 rgb(0, 4, 255), 0 1px rgb(225, 0, 255), 1px 0 rgb(179, 255, 0), 0 -1px rgb(255, 0, 85);}
+    66%{text-shadow: 4px 0 rgb(255, 0, 0), 0 1px rgb(229, 255, 0), 1px 0 rgb(0, 255, 76), 0 -1px rgb(75, 255, 171);}
+    100%{text-shadow: -4px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+}
+
+@keyframes rgbb {
+    0%{box-shadow: 4px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+    33%{box-shadow: -4px 0 rgb(0, 4, 255), 0 1px rgb(225, 0, 255), 1px 0 rgb(179, 255, 0), 0 -1px rgb(255, 0, 85);}
+    66%{box-shadow: 4px 0 rgb(255, 0, 0), 0 1px rgb(229, 255, 0), 1px 0 rgb(0, 255, 76), 0 -1px rgb(75, 255, 171);}
+    100%{box-shadow: -4px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+}
+
+
+#rgbpa{
+    animation-name: rgb;
+    animation-duration: 1.45s;
+    animation-iteration-count: infinite;
+}
+
+.rgbma{
+    animation-name: rgbb;
+    animation-duration: 1.45s;
+    animation-iteration-count: infinite;
 }
